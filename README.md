@@ -1,3 +1,5 @@
+This project is done in R.
+
 # Load necessary libraries
 library(dplyr)
 library(lubridate)
@@ -50,7 +52,7 @@ hour(), month(), wday() extract specific parts of the datetime for new columns.
 case_when() assigns seasons based on the month value.
 trip_duration is calculated as the difference between ended_at and started_at in seconds.
 Remove rows with negative trip duration: filter(trip_duration >= 0) keeps only rows with non-negative trip durations.
-This code snippet processes the data according to the steps you provided. Make sure to adjust the dataframe name if it differs from data.
+
 
 Visualization 
 install.packages("ggplot2")
